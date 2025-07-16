@@ -4,6 +4,8 @@ for (let i = 0; i < names.length; i++) {
   if (names[i][0] === 'A') {
     console.log(names[i]);  
     count++;
+    document.write(names[i] + "<br>");
+    count++;
   }
 }
 if (count > 0) {
