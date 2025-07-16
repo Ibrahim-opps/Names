@@ -6,4 +6,8 @@ for (let i = 0; i < names.length; i++) {
     count++;
   }
 }
-console.log(count + " names start with 'A'");
+if (count > 0) {
+  console.log(count + " names start with 'A'");
+} else {
+  console.log("No names start with 'A'");
+}
